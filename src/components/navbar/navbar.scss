@@ -1,0 +1,27 @@
+.navbar{
+  background: #F55A5A;
+  height: 55px;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+  .navbar__left{
+    .navbar__logo--img{
+      width: 24px;
+      height: 24px;
+    }
+
+  }
+  .navbar__right{
+    .navbar__logo--text{
+      font-family: Inter,sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: -0.075em;
+      color: #FFFFFF;
+    }
+  }
+}
